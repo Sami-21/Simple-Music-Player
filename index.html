@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <h2>Music Player</h2>
+    <div class="music_container ">
+        <div class="music_info">
+            <h4 id="title">Dragon Ball</h4>
+            <div class="progress_container">
+                <div class="progress"></div>
+            </div>
+        </div>
+
+        <audio src="Dragonball.mp3" id="audio" ></audio>
+
+        <div class="img_container">
+            <img src="Dragonball.jpg" alt="" id="cover">
+        </div>
+        <div class="navigation">
+            <button id="prev" class="action_btn">
+                <i class="fa fa-backward"></i>
+            </button>
+                  <button id="play" class="action_btn btn_big">
+                <i class="fa fa-play"></i>
+            </button>
+                  <button id="next" class="action_btn">
+                <i class="fa fa-forward"></i>
+            </button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
